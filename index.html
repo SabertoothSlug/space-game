@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input type="text" data-callsign placeholder="Enter Call Sign">
+        <button id="new">Blast Off!</button>
+        <h2 data-launch></h2>
+    </div>
+
+    <div>
+        <button id="report">Click for details</button>
+        <span data-report></span>
+    </div>
+
+    <div>
+        <button id='waypoint'>Display Waypoint</button>
+        <span data-waypoint></span>
+    </div>
+   
+   <div>
+    <button id="viewContract">View Contract</button>
+    <span data-viewContract></span>
+    <button id="acceptContract">Accept Contract</button>
+    <h2 id="contractStatus"></h2>
+
+   </div> 
+
+   <div>
+    <button id="listShips">View Ships Owned</button>
+    <h1>Ship Shopping</h1>
+    <span data-listShips></span>
+    <button id="findYard">Find Ship Yard</button>
+    <h2 id="shipyard"></h2>
+    <button id="shopShips">View Ships for Purchase</button>
+    <span data-shopShips></span>
+
+    
+    <input data-pickShip type="text" placeholder="enter ship type for purchase">
+    <button id="buyShip">Purchase Ship</button>
+    <span data-buyShip></span><br><br>
+   
+   <h1>Ship Sailing</h1>
+    <input data-orbitShip type="text" placeholder="Select Ship to send into orbit">
+    <button id="orbitShip">Launch into orbit</button>
+    <button id="searchSystem">Search System</button>
+    <input data-destination type="text">
+    <button id="shipMove">Send Ship</button>
+    <span></span>
+   </div>
+<h3 data-log></h3>
+<button id="clear">Clear Log</button>
+
+
+    <script src="main2.js"></script>
+</body>
+</html>

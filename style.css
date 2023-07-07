@@ -1,0 +1,13 @@
+div {
+    display: block;
+    margin: 20px;
+}
+body {
+    background-image: url("images/yellowspin.gif");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: black 2px 2px;
+
+}
